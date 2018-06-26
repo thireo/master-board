@@ -1,0 +1,481 @@
+EESchema Schematic File Version 4
+LIBS:AudiA6Main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J?
+U 1 1 5AD90035
+P 5775 1900
+F 0 "J?" V 5805 2380 50  0000 L CNN
+F 1 "RJ45" V 5896 2380 50  0000 L CNN
+F 2 "" H 5775 1900 50  0001 C CNN
+F 3 "" H 5775 1900 50  0001 C CNN
+	1    5775 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD9003C
+P 4925 2325
+F 0 "#PWR?" H 4925 2075 50  0001 C CNN
+F 1 "GND" H 4930 2152 50  0000 C CNN
+F 2 "" H 4925 2325 50  0001 C CNN
+F 3 "" H 4925 2325 50  0001 C CNN
+	1    4925 2325
+	1    0    0    -1  
+$EndComp
+Text Label 4925 1950 0    60   ~ 0
+~RESET
+Text Label 4925 1850 0    60   ~ 0
+STATUS
+Text Label 4925 1750 0    60   ~ 0
+CS
+Text Label 4925 1650 0    60   ~ 0
+SCL
+Text Label 4925 1550 0    60   ~ 0
+SDA
+NoConn ~ 6125 2450
+$Comp
+L regul:AP1117-15 U?
+U 1 1 5AD90048
+P 4175 1925
+F 0 "U?" H 4175 2167 50  0000 C CNN
+F 1 "AP1117-15" H 4175 2076 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4175 2125 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 1675 50  0001 C CNN
+	1    4175 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD9004F
+P 4575 2100
+F 0 "C?" H 4667 2146 50  0000 L CNN
+F 1 "100nF" H 4667 2055 50  0000 L CNN
+F 2 "" H 4575 2100 50  0001 C CNN
+F 3 "" H 4575 2100 50  0001 C CNN
+	1    4575 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD90056
+P 3800 2075
+F 0 "C?" H 3650 2150 50  0000 L CNN
+F 1 "1uF ???" H 3450 2000 50  0000 L CNN
+F 2 "" H 3800 2075 50  0001 C CNN
+F 3 "" H 3800 2075 50  0001 C CNN
+	1    3800 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5AD9005D
+P 5775 3125
+F 0 "J?" V 5805 3605 50  0000 L CNN
+F 1 "RJ45" V 5896 3605 50  0000 L CNN
+F 2 "" H 5775 3125 50  0001 C CNN
+F 3 "" H 5775 3125 50  0001 C CNN
+	1    5775 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD90064
+P 4925 3550
+F 0 "#PWR?" H 4925 3300 50  0001 C CNN
+F 1 "GND" H 4930 3377 50  0000 C CNN
+F 2 "" H 4925 3550 50  0001 C CNN
+F 3 "" H 4925 3550 50  0001 C CNN
+	1    4925 3550
+	1    0    0    -1  
+$EndComp
+Text Label 4925 3175 0    60   ~ 0
+~RESET
+Text Label 4925 3075 0    60   ~ 0
+STATUS
+Text Label 4925 2975 0    60   ~ 0
+CS
+Text Label 4925 2875 0    60   ~ 0
+SCL
+Text Label 4925 2775 0    60   ~ 0
+SDA
+NoConn ~ 6125 3675
+$Comp
+L regul:AP1117-15 U?
+U 1 1 5AD90070
+P 4175 3150
+F 0 "U?" H 4175 3392 50  0000 C CNN
+F 1 "AP1117-15" H 4175 3301 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4175 3350 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 2900 50  0001 C CNN
+	1    4175 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD90077
+P 4575 3325
+F 0 "C?" H 4667 3371 50  0000 L CNN
+F 1 "100nF" H 4667 3280 50  0000 L CNN
+F 2 "" H 4575 3325 50  0001 C CNN
+F 3 "" H 4575 3325 50  0001 C CNN
+	1    4575 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD9007E
+P 3800 3300
+F 0 "C?" H 3650 3375 50  0000 L CNN
+F 1 "1uF ???" H 3450 3225 50  0000 L CNN
+F 2 "" H 3800 3300 50  0001 C CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5AD90085
+P 5775 4225
+F 0 "J?" V 5805 4705 50  0000 L CNN
+F 1 "RJ45" V 5896 4705 50  0000 L CNN
+F 2 "" H 5775 4225 50  0001 C CNN
+F 3 "" H 5775 4225 50  0001 C CNN
+	1    5775 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD9008C
+P 4925 4650
+F 0 "#PWR?" H 4925 4400 50  0001 C CNN
+F 1 "GND" H 4930 4477 50  0000 C CNN
+F 2 "" H 4925 4650 50  0001 C CNN
+F 3 "" H 4925 4650 50  0001 C CNN
+	1    4925 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4925 4275 0    60   ~ 0
+~RESET
+Text Label 4925 4175 0    60   ~ 0
+STATUS
+Text Label 4925 4075 0    60   ~ 0
+CS
+Text Label 4925 3975 0    60   ~ 0
+SCL
+Text Label 4925 3875 0    60   ~ 0
+SDA
+NoConn ~ 6125 4775
+$Comp
+L regul:AP1117-15 U?
+U 1 1 5AD90098
+P 4175 4250
+F 0 "U?" H 4175 4492 50  0000 C CNN
+F 1 "AP1117-15" H 4175 4401 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4175 4450 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 4000 50  0001 C CNN
+	1    4175 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD9009F
+P 4575 4425
+F 0 "C?" H 4667 4471 50  0000 L CNN
+F 1 "100nF" H 4667 4380 50  0000 L CNN
+F 2 "" H 4575 4425 50  0001 C CNN
+F 3 "" H 4575 4425 50  0001 C CNN
+	1    4575 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD900A6
+P 3800 4400
+F 0 "C?" H 3650 4475 50  0000 L CNN
+F 1 "1uF ???" H 3450 4325 50  0000 L CNN
+F 2 "" H 3800 4400 50  0001 C CNN
+F 3 "" H 3800 4400 50  0001 C CNN
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5AD900AD
+P 5775 5450
+F 0 "J?" V 5805 5930 50  0000 L CNN
+F 1 "RJ45" V 5896 5930 50  0000 L CNN
+F 2 "" H 5775 5450 50  0001 C CNN
+F 3 "" H 5775 5450 50  0001 C CNN
+	1    5775 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD900B4
+P 4925 5875
+F 0 "#PWR?" H 4925 5625 50  0001 C CNN
+F 1 "GND" H 4930 5702 50  0000 C CNN
+F 2 "" H 4925 5875 50  0001 C CNN
+F 3 "" H 4925 5875 50  0001 C CNN
+	1    4925 5875
+	1    0    0    -1  
+$EndComp
+Text Label 4925 5500 0    60   ~ 0
+~RESET
+Text Label 4925 5400 0    60   ~ 0
+STATUS
+Text Label 4925 5300 0    60   ~ 0
+CS
+Text Label 4925 5200 0    60   ~ 0
+SCL
+Text Label 4925 5100 0    60   ~ 0
+SDA
+NoConn ~ 6125 6000
+$Comp
+L regul:AP1117-15 U?
+U 1 1 5AD900C0
+P 4175 5475
+F 0 "U?" H 4175 5717 50  0000 C CNN
+F 1 "AP1117-15" H 4175 5626 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4175 5675 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 5225 50  0001 C CNN
+	1    4175 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD900C7
+P 4575 5650
+F 0 "C?" H 4667 5696 50  0000 L CNN
+F 1 "100nF" H 4667 5605 50  0000 L CNN
+F 2 "" H 4575 5650 50  0001 C CNN
+F 3 "" H 4575 5650 50  0001 C CNN
+	1    4575 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5AD900CE
+P 3800 5625
+F 0 "C?" H 3650 5700 50  0000 L CNN
+F 1 "1uF ???" H 3450 5550 50  0000 L CNN
+F 2 "" H 3800 5625 50  0001 C CNN
+F 3 "" H 3800 5625 50  0001 C CNN
+	1    3800 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 1550 4925 1550
+Wire Wire Line
+	5325 1650 4925 1650
+Wire Wire Line
+	5325 1750 4925 1750
+Wire Wire Line
+	5325 1850 4925 1850
+Wire Wire Line
+	5325 1950 4925 1950
+Wire Wire Line
+	4850 2050 5325 2050
+Wire Wire Line
+	4925 2150 5325 2150
+Wire Wire Line
+	3800 2250 4175 2250
+Wire Wire Line
+	4925 2150 4925 2250
+Connection ~ 4925 2250
+Wire Wire Line
+	4575 1925 4575 1950
+Wire Wire Line
+	4575 1925 4475 1925
+Wire Wire Line
+	4575 2200 4575 2250
+Wire Wire Line
+	4175 2250 4175 2225
+Wire Wire Line
+	3875 1925 3800 1925
+Wire Wire Line
+	3800 1925 3800 1975
+Wire Wire Line
+	3800 2175 3800 2250
+Connection ~ 4175 2250
+Wire Wire Line
+	4850 2050 4850 1950
+Wire Wire Line
+	4850 1950 4575 1950
+Connection ~ 4575 1950
+Connection ~ 4575 2250
+Wire Wire Line
+	5325 2775 4925 2775
+Wire Wire Line
+	5325 2875 4925 2875
+Wire Wire Line
+	5325 2975 4925 2975
+Wire Wire Line
+	5325 3075 4925 3075
+Wire Wire Line
+	5325 3175 4925 3175
+Wire Wire Line
+	4850 3275 5325 3275
+Wire Wire Line
+	4925 3375 5325 3375
+Wire Wire Line
+	3800 3475 4175 3475
+Wire Wire Line
+	4925 3375 4925 3475
+Connection ~ 4925 3475
+Wire Wire Line
+	4575 3150 4575 3175
+Wire Wire Line
+	4575 3150 4475 3150
+Wire Wire Line
+	4575 3425 4575 3475
+Wire Wire Line
+	4175 3475 4175 3450
+Wire Wire Line
+	3875 3150 3800 3150
+Wire Wire Line
+	3800 3150 3800 3200
+Wire Wire Line
+	3800 3400 3800 3475
+Connection ~ 4175 3475
+Wire Wire Line
+	4850 3275 4850 3175
+Wire Wire Line
+	4850 3175 4575 3175
+Connection ~ 4575 3175
+Connection ~ 4575 3475
+Wire Wire Line
+	5325 3875 4925 3875
+Wire Wire Line
+	5325 3975 4925 3975
+Wire Wire Line
+	5325 4075 4925 4075
+Wire Wire Line
+	5325 4175 4925 4175
+Wire Wire Line
+	5325 4275 4925 4275
+Wire Wire Line
+	4850 4375 5325 4375
+Wire Wire Line
+	4925 4475 5325 4475
+Wire Wire Line
+	3800 4575 4175 4575
+Wire Wire Line
+	4925 4475 4925 4575
+Connection ~ 4925 4575
+Wire Wire Line
+	4575 4250 4575 4275
+Wire Wire Line
+	4575 4250 4475 4250
+Wire Wire Line
+	4575 4525 4575 4575
+Wire Wire Line
+	4175 4575 4175 4550
+Wire Wire Line
+	3875 4250 3800 4250
+Wire Wire Line
+	3800 4250 3800 4300
+Wire Wire Line
+	3800 4500 3800 4575
+Connection ~ 4175 4575
+Wire Wire Line
+	4850 4375 4850 4275
+Wire Wire Line
+	4850 4275 4575 4275
+Connection ~ 4575 4275
+Connection ~ 4575 4575
+Wire Wire Line
+	5325 5100 4925 5100
+Wire Wire Line
+	5325 5200 4925 5200
+Wire Wire Line
+	5325 5300 4925 5300
+Wire Wire Line
+	5325 5400 4925 5400
+Wire Wire Line
+	5325 5500 4925 5500
+Wire Wire Line
+	4850 5600 5325 5600
+Wire Wire Line
+	4925 5700 5325 5700
+Wire Wire Line
+	3800 5800 4175 5800
+Wire Wire Line
+	4925 5700 4925 5800
+Connection ~ 4925 5800
+Wire Wire Line
+	4575 5475 4575 5500
+Wire Wire Line
+	4575 5475 4475 5475
+Wire Wire Line
+	4575 5750 4575 5800
+Wire Wire Line
+	4175 5800 4175 5775
+Wire Wire Line
+	3875 5475 3800 5475
+Wire Wire Line
+	3800 5475 3800 5525
+Wire Wire Line
+	3800 5725 3800 5800
+Connection ~ 4175 5800
+Wire Wire Line
+	4850 5600 4850 5500
+Wire Wire Line
+	4850 5500 4575 5500
+Connection ~ 4575 5500
+Connection ~ 4575 5800
+Wire Wire Line
+	4925 2250 5325 2250
+Wire Wire Line
+	4925 2250 4925 2325
+Wire Wire Line
+	4175 2250 4575 2250
+Wire Wire Line
+	4575 1950 4575 2000
+Wire Wire Line
+	4575 2250 4925 2250
+Wire Wire Line
+	4925 3475 5325 3475
+Wire Wire Line
+	4925 3475 4925 3550
+Wire Wire Line
+	4175 3475 4575 3475
+Wire Wire Line
+	4575 3175 4575 3225
+Wire Wire Line
+	4575 3475 4925 3475
+Wire Wire Line
+	4925 4575 5325 4575
+Wire Wire Line
+	4925 4575 4925 4650
+Wire Wire Line
+	4175 4575 4575 4575
+Wire Wire Line
+	4575 4275 4575 4325
+Wire Wire Line
+	4575 4575 4925 4575
+Wire Wire Line
+	4925 5800 5325 5800
+Wire Wire Line
+	4925 5800 4925 5875
+Wire Wire Line
+	4175 5800 4575 5800
+Wire Wire Line
+	4575 5500 4575 5550
+Wire Wire Line
+	4575 5800 4925 5800
+$EndSCHEMATC

@@ -1,0 +1,439 @@
+EESchema Schematic File Version 4
+LIBS:AudiA6Main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR037
+U 1 1 5AB93D5D
+P 5500 5275
+F 0 "#PWR037" H 5500 5025 50  0001 C CNN
+F 1 "GND" H 5505 5102 50  0000 C CNN
+F 2 "" H 5500 5275 50  0001 C CNN
+F 3 "" H 5500 5275 50  0001 C CNN
+	1    5500 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5050 4750 5100
+Wire Wire Line
+	4750 5100 4975 5100
+Wire Wire Line
+	5500 5100 5500 5275
+Wire Wire Line
+	6100 5100 6100 4150
+Connection ~ 5500 5100
+Wire Wire Line
+	5675 5050 5675 5100
+Connection ~ 5675 5100
+Wire Wire Line
+	5175 4775 5175 5100
+Connection ~ 5175 5100
+Wire Wire Line
+	4975 4500 4975 5100
+Connection ~ 4975 5100
+Wire Wire Line
+	5400 4175 5400 5100
+Connection ~ 5400 5100
+Wire Wire Line
+	5900 4750 5900 5100
+Connection ~ 5900 5100
+$Comp
+L Connector:Conn_02x07_Counter_Clockwise J10
+U 1 1 5AB94148
+P 5550 2775
+F 0 "J10" V 5554 3155 50  0000 L CNN
+F 1 "Conn_02x07_Counter_Clockwise" V 5645 3155 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5550 2775 50  0001 C CNN
+F 3 "~" H 5550 2775 50  0001 C CNN
+	1    5550 2775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4650 4750 2400
+Wire Wire Line
+	4750 2400 5200 2400
+Wire Wire Line
+	5250 2400 5250 2575
+$Comp
+L device:R_Small R13
+U 1 1 5AB9432F
+P 4975 3525
+F 0 "R13" H 5034 3571 50  0000 L CNN
+F 1 "10k" H 5034 3480 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4975 3525 50  0001 C CNN
+F 3 "" H 4975 3525 50  0001 C CNN
+	1    4975 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 3625 4975 4100
+Wire Wire Line
+	4975 2500 4975 3225
+Wire Wire Line
+	4975 2500 5350 2500
+Wire Wire Line
+	5350 2500 5350 2575
+Wire Wire Line
+	5175 4375 5175 3625
+Wire Wire Line
+	5175 3625 5250 3625
+Wire Wire Line
+	5250 3625 5250 3075
+Wire Wire Line
+	5675 4650 5675 3400
+Wire Wire Line
+	5675 3400 5350 3400
+Wire Wire Line
+	5350 3400 5350 3075
+Wire Wire Line
+	6100 3750 6100 3325
+Wire Wire Line
+	6100 3325 5450 3325
+Wire Wire Line
+	5450 3325 5450 3075
+Wire Wire Line
+	5400 3775 5400 3600
+Wire Wire Line
+	5400 3600 6225 3600
+Wire Wire Line
+	6225 3600 6225 2400
+Wire Wire Line
+	6225 2400 5650 2400
+Wire Wire Line
+	5650 2400 5650 2575
+Wire Wire Line
+	5900 4350 5900 3650
+Wire Wire Line
+	5900 3650 6150 3650
+Wire Wire Line
+	6150 3650 6150 2450
+Wire Wire Line
+	6150 2450 5750 2450
+Wire Wire Line
+	5750 2450 5750 2575
+NoConn ~ 5850 2575
+NoConn ~ 5750 3075
+NoConn ~ 5850 3075
+NoConn ~ 5450 2575
+Wire Wire Line
+	5550 2575 5550 2175
+$Comp
+L device:R_Small R15
+U 1 1 5AB9B492
+P 5375 2175
+F 0 "R15" V 5179 2175 50  0000 C CNN
+F 1 "10k" V 5270 2175 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5375 2175 50  0001 C CNN
+F 3 "" H 5375 2175 50  0001 C CNN
+	1    5375 2175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5475 2175 5550 2175
+Wire Wire Line
+	4400 2175 5200 2175
+$Comp
+L device:R_Small R12
+U 1 1 5AB9F1C8
+P 4625 3225
+F 0 "R12" V 4429 3225 50  0000 C CNN
+F 1 "2.2k" V 4520 3225 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4625 3225 50  0001 C CNN
+F 3 "" H 4625 3225 50  0001 C CNN
+	1    4625 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 3225 4725 3225
+Connection ~ 4975 3225
+$Comp
+L device:R_Small R14
+U 1 1 5ABA0326
+P 5200 1750
+F 0 "R14" V 5004 1750 50  0000 C CNN
+F 1 "200k" V 5095 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5200 1750 50  0001 C CNN
+F 3 "" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 3225 4400 3225
+Wire Wire Line
+	4400 3225 4400 2175
+$Comp
+L device:C_Small C20
+U 1 1 5ABB746D
+P 6625 1975
+F 0 "C20" H 6533 1929 50  0000 R CNN
+F 1 "C_Small" H 6533 2020 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6625 1975 50  0001 C CNN
+F 3 "" H 6625 1975 50  0001 C CNN
+	1    6625 1975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6775 1975 6775 2225
+Wire Wire Line
+	6775 1975 6725 1975
+$Comp
+L device:D_Small D1
+U 1 1 5ABB984C
+P 6625 2425
+F 0 "D1" V 6671 2357 50  0000 R CNN
+F 1 "D_Small" V 6580 2357 50  0000 R CNN
+F 2 "Diodes_SMD:D_0805" V 6625 2425 50  0001 C CNN
+F 3 "" V 6625 2425 50  0001 C CNN
+	1    6625 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 2425 6775 2425
+Wire Wire Line
+	6525 2425 6475 2425
+Wire Wire Line
+	6475 1975 6475 2175
+Wire Wire Line
+	6475 1975 6525 1975
+Connection ~ 5550 2175
+Connection ~ 6475 2175
+Wire Wire Line
+	5200 1650 5200 1525
+$Comp
+L device:R_Small R16
+U 1 1 5ABC7633
+P 6100 2000
+F 0 "R16" H 6041 1954 50  0000 R CNN
+F 1 "680" H 6041 2045 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6100 2000 50  0001 C CNN
+F 3 "" H 6100 2000 50  0001 C CNN
+	1    6100 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2100 6100 2175
+Connection ~ 6100 2175
+$Comp
+L power:GND #PWR040
+U 1 1 5ABCD1A8
+P 6950 2525
+F 0 "#PWR040" H 6950 2275 50  0001 C CNN
+F 1 "GND" H 6955 2352 50  0000 C CNN
+F 2 "" H 6950 2525 50  0001 C CNN
+F 3 "" H 6950 2525 50  0001 C CNN
+	1    6950 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2525 6950 2225
+Wire Wire Line
+	6950 2225 6775 2225
+Connection ~ 6775 2225
+$Comp
+L power:+12V #PWR039
+U 1 1 5ABD026F
+P 6100 1175
+F 0 "#PWR039" H 6100 1025 50  0001 C CNN
+F 1 "+12V" H 6115 1348 50  0000 C CNN
+F 2 "" H 6100 1175 50  0001 C CNN
+F 3 "" H 6100 1175 50  0001 C CNN
+	1    6100 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1625 6100 1900
+Wire Wire Line
+	6100 1175 6100 1225
+Wire Wire Line
+	5200 1850 5200 2175
+Connection ~ 5200 2400
+Connection ~ 5200 2175
+Wire Wire Line
+	5800 1425 5750 1425
+$Comp
+L Transistor:BSS138 Q1
+U 1 1 5ABF00F5
+P 4650 4850
+F 0 "Q1" H 4855 4896 50  0000 L CNN
+F 1 "BSS138" H 4855 4805 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4850 4775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4650 4850 50  0001 L CNN
+	1    4650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q2
+U 1 1 5ABF0324
+P 4875 4300
+F 0 "Q2" H 5080 4346 50  0000 L CNN
+F 1 "BSS138" H 5080 4255 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5075 4225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4875 4300 50  0001 L CNN
+	1    4875 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q3
+U 1 1 5ABF035A
+P 5075 4575
+F 0 "Q3" H 5280 4621 50  0000 L CNN
+F 1 "BSS138" H 5280 4530 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5275 4500 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5075 4575 50  0001 L CNN
+	1    5075 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q4
+U 1 1 5ABF03A4
+P 5300 3975
+F 0 "Q4" H 5505 4021 50  0000 L CNN
+F 1 "BSS138" H 5505 3930 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5500 3900 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5300 3975 50  0001 L CNN
+	1    5300 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q5
+U 1 1 5ABF03E0
+P 5575 4850
+F 0 "Q5" H 5780 4896 50  0000 L CNN
+F 1 "BSS138" H 5780 4805 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5775 4775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5575 4850 50  0001 L CNN
+	1    5575 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q6
+U 1 1 5ABF043A
+P 5800 4550
+F 0 "Q6" H 6005 4596 50  0000 L CNN
+F 1 "BSS138" H 6005 4505 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6000 4475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5800 4550 50  0001 L CNN
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q8
+U 1 1 5ABF047E
+P 6000 3950
+F 0 "Q8" H 6205 3996 50  0000 L CNN
+F 1 "BSS138" H 6205 3905 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6200 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6000 3950 50  0001 L CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:BSS138 Q7
+U 1 1 5ABF04CA
+P 6000 1425
+F 0 "Q7" H 6205 1471 50  0000 L CNN
+F 1 "BSS138" H 6205 1380 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6200 1350 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6000 1425 50  0001 L CNN
+	1    6000 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4850 4125 4850
+Wire Wire Line
+	4125 4300 4675 4300
+Wire Wire Line
+	4875 4575 4125 4575
+Wire Wire Line
+	4150 3975 5100 3975
+Wire Wire Line
+	5375 4850 5325 4850
+Wire Wire Line
+	5325 4850 5325 5175
+Wire Wire Line
+	5325 5175 4125 5175
+Wire Wire Line
+	5600 4550 5550 4550
+Wire Wire Line
+	5550 4125 5550 4550
+Wire Wire Line
+	5550 4125 4150 4125
+Wire Wire Line
+	5800 3950 5750 3950
+Wire Wire Line
+	5750 3950 5750 3775
+Wire Wire Line
+	5750 3775 4150 3775
+NoConn ~ 5650 3075
+$Comp
+L power:GND #PWR038
+U 1 1 5AC1D84A
+P 5550 3100
+F 0 "#PWR038" H 5550 2850 50  0001 C CNN
+F 1 "GND" H 5555 2927 50  0000 C CNN
+F 2 "" H 5550 3100 50  0001 C CNN
+F 3 "" H 5550 3100 50  0001 C CNN
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3100 5550 3075
+Wire Wire Line
+	5500 5100 5675 5100
+Wire Wire Line
+	5675 5100 5900 5100
+Wire Wire Line
+	5175 5100 5400 5100
+Wire Wire Line
+	4975 5100 5175 5100
+Wire Wire Line
+	5400 5100 5500 5100
+Wire Wire Line
+	5900 5100 6100 5100
+Wire Wire Line
+	4975 3225 4975 3425
+Wire Wire Line
+	5550 2175 6100 2175
+Wire Wire Line
+	6475 2175 6475 2425
+Wire Wire Line
+	6100 2175 6475 2175
+Wire Wire Line
+	6775 2225 6775 2425
+Wire Wire Line
+	5200 2400 5250 2400
+Wire Wire Line
+	5200 2175 5275 2175
+Wire Wire Line
+	5200 2175 5200 2400
+Text HLabel 4125 4850 0    50   Input ~ 0
+BTN1
+Text HLabel 4125 4300 0    50   Input ~ 0
+BTN2
+Text HLabel 4125 4575 0    50   Input ~ 0
+BTN3
+Text HLabel 4125 5175 0    50   Input ~ 0
+BTN5
+Text HLabel 4150 4125 0    50   Input ~ 0
+BTN6
+Text HLabel 4150 3975 0    50   Input ~ 0
+BTN4
+Text HLabel 4150 3775 0    50   Input ~ 0
+BTN7
+Text HLabel 5750 1425 0    50   Input ~ 0
+MTH_EN
+Text HLabel 5200 1525 0    50   Input ~ 0
+MTH_OUT
+$EndSCHEMATC

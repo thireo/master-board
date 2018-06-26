@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+LIBS:AudiA6Main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ftdi:FT232RL U?
+U 1 1 5AD831CB
+P 7125 3175
+F 0 "U?" H 7075 3250 50  0000 C CNN
+F 1 "FT232RL" H 7125 2900 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 7125 3175 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 7125 3175 50  0001 C CNN
+	1    7125 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5AD83238
+P 4825 2775
+F 0 "J?" H 4880 3242 50  0000 C CNN
+F 1 "USB_B_Micro" H 4880 3151 50  0000 C CNN
+F 2 "" H 4975 2725 50  0001 C CNN
+F 3 "~" H 4975 2725 50  0001 C CNN
+	1    4825 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 2775 5750 2775
+Wire Wire Line
+	6325 2875 5125 2875
+$Comp
+L power:GND #PWR?
+U 1 1 5AD83C22
+P 4775 3225
+F 0 "#PWR?" H 4775 2975 50  0001 C CNN
+F 1 "GND" H 4780 3052 50  0000 C CNN
+F 2 "" H 4775 3225 50  0001 C CNN
+F 3 "" H 4775 3225 50  0001 C CNN
+	1    4775 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 3175 4825 3225
+Wire Wire Line
+	4825 3225 4775 3225
+Wire Wire Line
+	4725 3175 4725 3225
+Wire Wire Line
+	4725 3225 4775 3225
+Connection ~ 4775 3225
+$Comp
+L device:R_Small R?
+U 1 1 5ADAC53C
+P 5750 2650
+F 0 "R?" H 5809 2696 50  0000 L CNN
+F 1 "1.5k" H 5809 2605 50  0000 L CNN
+F 2 "" H 5750 2650 50  0001 C CNN
+F 3 "" H 5750 2650 50  0001 C CNN
+	1    5750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2750 5750 2775
+Connection ~ 5750 2775
+Wire Wire Line
+	5750 2775 5125 2775
+Wire Wire Line
+	5750 2550 5750 2475
+Wire Wire Line
+	5750 2475 6325 2475
+$Comp
+L power:VCC #PWR?
+U 1 1 5ADACBCA
+P 7025 2075
+F 0 "#PWR?" H 7025 1925 50  0001 C CNN
+F 1 "VCC" H 7042 2248 50  0000 C CNN
+F 2 "" H 7025 2075 50  0001 C CNN
+F 3 "" H 7025 2075 50  0001 C CNN
+	1    7025 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 2075 7025 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5ADAD27C
+P 7225 4250
+F 0 "#PWR?" H 7225 4000 50  0001 C CNN
+F 1 "GND" H 7230 4077 50  0000 C CNN
+F 2 "" H 7225 4250 50  0001 C CNN
+F 3 "" H 7225 4250 50  0001 C CNN
+	1    7225 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7225 4250 7225 4225
+Wire Wire Line
+	7225 4225 7125 4225
+Wire Wire Line
+	7125 4225 7125 4175
+Wire Wire Line
+	7325 4175 7325 4225
+Wire Wire Line
+	7325 4225 7225 4225
+Connection ~ 7225 4225
+Wire Wire Line
+	7225 4175 7225 4225
+Wire Wire Line
+	7225 2175 7225 2100
+Wire Wire Line
+	7225 2100 7025 2100
+Connection ~ 7025 2100
+Wire Wire Line
+	7025 2100 7025 2175
+$Comp
+L device:C_Small C?
+U 1 1 5ADAEAB8
+P 6050 1400
+F 0 "C?" H 6142 1446 50  0000 L CNN
+F 1 "0.1uF" H 6142 1355 50  0000 L CNN
+F 2 "" H 6050 1400 50  0001 C CNN
+F 3 "" H 6050 1400 50  0001 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5ADAEB64
+P 5675 1400
+F 0 "C?" H 5767 1446 50  0000 L CNN
+F 1 "0.1uF" H 5767 1355 50  0000 L CNN
+F 2 "" H 5675 1400 50  0001 C CNN
+F 3 "" H 5675 1400 50  0001 C CNN
+	1    5675 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP1_Small C?
+U 1 1 5ADAECA8
+P 6450 1400
+F 0 "C?" H 6541 1446 50  0000 L CNN
+F 1 "10uF" H 6541 1355 50  0000 L CNN
+F 2 "" H 6450 1400 50  0001 C CNN
+F 3 "" H 6450 1400 50  0001 C CNN
+	1    6450 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
