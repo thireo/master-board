@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AudiA6Main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x14 J11
+L Connector_Generic:Conn_01x14 J11
 U 1 1 5AEA9F31
 P 3400 3800
 F 0 "J11" V 3617 3746 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "~" H 3400 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x14 J12
+L Connector_Generic:Conn_01x14 J12
 U 1 1 5AEA9F38
 P 4700 3700
 F 0 "J12" V 4824 3646 50  0000 C CNN

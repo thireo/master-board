@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2400 5250 2575
 $Comp
-L device:R_Small R13
+L Device:R_Small R13
 U 1 1 5AB9432F
 P 4975 3525
 F 0 "R13" H 5034 3571 50  0000 L CNN
@@ -130,7 +130,7 @@ NoConn ~ 5450 2575
 Wire Wire Line
 	5550 2575 5550 2175
 $Comp
-L device:R_Small R15
+L Device:R_Small R15
 U 1 1 5AB9B492
 P 5375 2175
 F 0 "R15" V 5179 2175 50  0000 C CNN
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2175 5200 2175
 $Comp
-L device:R_Small R12
+L Device:R_Small R12
 U 1 1 5AB9F1C8
 P 4625 3225
 F 0 "R12" V 4429 3225 50  0000 C CNN
@@ -159,7 +159,7 @@ Wire Wire Line
 	4975 3225 4725 3225
 Connection ~ 4975 3225
 $Comp
-L device:R_Small R14
+L Device:R_Small R14
 U 1 1 5ABA0326
 P 5200 1750
 F 0 "R14" V 5004 1750 50  0000 C CNN
@@ -174,7 +174,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3225 4400 2175
 $Comp
-L device:C_Small C20
+L Device:C_Small C20
 U 1 1 5ABB746D
 P 6625 1975
 F 0 "C20" H 6533 1929 50  0000 R CNN
@@ -189,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	6775 1975 6725 1975
 $Comp
-L device:D_Small D1
+L Device:D_Small D1
 U 1 1 5ABB984C
 P 6625 2425
 F 0 "D1" V 6671 2357 50  0000 R CNN
@@ -212,7 +212,7 @@ Connection ~ 6475 2175
 Wire Wire Line
 	5200 1650 5200 1525
 $Comp
-L device:R_Small R16
+L Device:R_Small R16
 U 1 1 5ABC7633
 P 6100 2000
 F 0 "R16" H 6041 1954 50  0000 R CNN

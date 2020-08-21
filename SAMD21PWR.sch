@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:AudiA6Main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -26,7 +25,7 @@ F 3 "" H 3375 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Ferrite_Bead_Small L1
+L Device:Ferrite_Bead_Small L1
 U 1 1 5B0514A6
 P 3625 2900
 F 0 "L1" V 3388 2900 50  0000 C CNN
@@ -41,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 2900 3375 2850
 $Comp
-L device:C_Small C23
+L Device:C_Small C23
 U 1 1 5B0514AF
 P 3800 3075
 F 0 "C23" H 3892 3121 50  0000 L CNN
@@ -52,7 +51,7 @@ F 3 "" H 3800 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C26
+L Device:C_Small C26
 U 1 1 5B0514B6
 P 4175 3075
 F 0 "C26" H 4267 3121 50  0000 L CNN
@@ -84,7 +83,7 @@ Connection ~ 4175 3225
 Wire Wire Line
 	4175 3225 4500 3225
 $Comp
-L device:C_Small C24
+L Device:C_Small C24
 U 1 1 5B0514CB
 P 4000 3475
 F 0 "C24" H 4000 3550 50  0000 L CNN
@@ -103,7 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 4150 3375 3875
 $Comp
-L device:C_Small C22
+L Device:C_Small C22
 U 1 1 5B0514D6
 P 3375 3775
 F 0 "C22" H 3467 3821 50  0000 L CNN
@@ -144,7 +143,7 @@ Connection ~ 3900 4150
 Wire Wire Line
 	3900 4150 3375 4150
 $Comp
-L device:C_Small C25
+L Device:C_Small C25
 U 1 1 5B0514F0
 P 4100 3750
 F 0 "C25" H 4192 3796 50  0000 L CNN
@@ -170,7 +169,7 @@ Connection ~ 4100 4150
 Wire Wire Line
 	4100 4150 4000 4150
 $Comp
-L device:C_Small C27
+L Device:C_Small C27
 U 1 1 5B051501
 P 4200 3975
 F 0 "C27" H 4292 4021 50  0000 L CNN

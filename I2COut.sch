@@ -59,7 +59,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 1675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD9004F
 P 4575 2100
 F 0 "C?" H 4667 2146 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 4575 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD90056
 P 3800 2075
 F 0 "C?" H 3650 2150 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD90077
 P 4575 3325
 F 0 "C?" H 4667 3371 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 4575 3325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD9007E
 P 3800 3300
 F 0 "C?" H 3650 3375 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD9009F
 P 4575 4425
 F 0 "C?" H 4667 4471 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "" H 4575 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD900A6
 P 3800 4400
 F 0 "C?" H 3650 4475 50  0000 L CNN
@@ -257,7 +257,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4275 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD900C7
 P 4575 5650
 F 0 "C?" H 4667 5696 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "" H 4575 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5AD900CE
 P 3800 5625
 F 0 "C?" H 3650 5700 50  0000 L CNN

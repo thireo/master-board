@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AudiA6Main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -124,7 +123,7 @@ Text Label 9350 3425 0    60   ~ 0
 SDA
 NoConn ~ 10550 4325
 $Comp
-L regul:AP1117-15 U9
+L Regulator_Linear:AP1117-15 U9
 U 1 1 5ABC1751
 P 5930 1280
 F 0 "U9" H 5930 1522 50  0000 C CNN
@@ -135,7 +134,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 6030 1030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C18
+L Device:C_Small C18
 U 1 1 5ABC1757
 P 6330 1455
 F 0 "C18" H 6422 1501 50  0000 L CNN
@@ -146,7 +145,7 @@ F 3 "" H 6330 1455 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C14
+L Device:C_Small C14
 U 1 1 5ABC1761
 P 5555 1430
 F 0 "C14" H 5405 1505 50  0000 L CNN
@@ -188,7 +187,7 @@ Text Label 9350 4650 0    60   ~ 0
 SDA
 NoConn ~ 10550 5550
 $Comp
-L regul:AP1117-15 U10
+L Regulator_Linear:AP1117-15 U10
 U 1 1 5ABC178B
 P 5925 2025
 F 0 "U10" H 5925 2267 50  0000 C CNN
@@ -199,7 +198,7 @@ F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 6025 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C19
+L Device:C_Small C19
 U 1 1 5ABC1791
 P 6325 2200
 F 0 "C19" H 6417 2246 50  0000 L CNN
@@ -210,7 +209,7 @@ F 3 "" H 6325 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C15
+L Device:C_Small C15
 U 1 1 5ABC179B
 P 5550 2175
 F 0 "C15" H 5400 2250 50  0000 L CNN
@@ -329,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	6395 2050 6325 2050
 $Comp
-L Connector:Conn_01x08 J5
+L Connector_Generic:Conn_01x08 J5
 U 1 1 5AC3BE1D
 P 8225 5925
 F 0 "J5" H 8305 5917 50  0000 L CNN
@@ -346,7 +345,7 @@ BLE_RX
 Text Label 8025 6225 2    60   ~ 0
 BLE_GND
 $Comp
-L audio:MSGEQ7 U5
+L Audio:MSGEQ7 U5
 U 1 1 5AC3CBB8
 P 5525 6675
 F 0 "U5" H 5175 6225 50  0000 C CNN
@@ -365,7 +364,7 @@ SAMPLE_RESET
 Text Label 6025 6375 0    60   ~ 0
 SAMPLE_STROBE
 $Comp
-L device:C_Small C9
+L Device:C_Small C9
 U 1 1 5AC6BA7E
 P 5750 6025
 F 0 "C9" V 5521 6025 50  0000 C CNN
@@ -376,7 +375,7 @@ F 3 "" H 5750 6025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R8
+L Device:R_Small R8
 U 1 1 5AC6BAE4
 P 4750 6975
 F 0 "R8" V 4554 6975 50  0000 C CNN
@@ -400,7 +399,7 @@ $EndComp
 Wire Wire Line
 	5525 7225 5525 7175
 $Comp
-L device:C_Small C10
+L Device:C_Small C10
 U 1 1 5AC72CCF
 P 6125 7100
 F 0 "C10" H 6217 7146 50  0000 L CNN
@@ -459,7 +458,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 6025 5850 6025
 $Comp
-L device:C_Small C8
+L Device:C_Small C8
 U 1 1 5AC9A4F2
 P 4925 7175
 F 0 "C8" H 4833 7129 50  0000 R CNN
@@ -503,7 +502,7 @@ Wire Wire Line
 Wire Wire Line
 	4575 6975 4575 6925
 $Comp
-L device:C_Small C7
+L Device:C_Small C7
 U 1 1 5ACBA095
 P 4875 6675
 F 0 "C7" V 5104 6675 50  0000 C CNN
@@ -544,18 +543,18 @@ Wire Wire Line
 Wire Wire Line
 	4925 6975 5025 6975
 $Comp
-L Connector:Audio-Jack-4 J3
+L Connector:AudioJack3_Ground J3
 U 1 1 5AD1C471
-P 3375 6675
-F 0 "J3" H 3351 6900 50  0000 C CNN
-F 1 "Audio-Jack-4" H 3351 6809 50  0000 C CNN
-F 2 "athir:SJ1-35235" H 3625 6775 50  0001 C CNN
-F 3 "~" H 3625 6775 50  0001 C CNN
-	1    3375 6675
+P 3375 6775
+F 0 "J3" H 3351 7000 50  0000 C CNN
+F 1 "Audio-Jack-4" H 3351 6909 50  0000 C CNN
+F 2 "athir:SJ1-35235" H 3625 6875 50  0001 C CNN
+F 3 "~" H 3625 6875 50  0001 C CNN
+	1    3375 6775
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R6
+L Device:R_Small R6
 U 1 1 5AD1C66E
 P 3725 6675
 F 0 "R6" V 3650 6675 50  0000 C CNN
@@ -569,10 +568,8 @@ Wire Wire Line
 	3625 6675 3575 6675
 Wire Wire Line
 	3575 6875 3600 6875
-Wire Wire Line
-	3175 7100 3175 7075
 $Comp
-L regul:LD1117S50TR_SOT223 U4
+L Regulator_Linear:LD1117S50TR_SOT223 U4
 U 1 1 5ADBB2A5
 P 4485 760
 F 0 "U4" H 4485 1002 50  0000 C CNN
@@ -583,7 +580,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C4
+L Device:C_Small C4
 U 1 1 5ADE9B70
 P 4010 910
 F 0 "C4" H 4102 956 50  0000 L CNN
@@ -594,7 +591,7 @@ F 3 "" H 4010 910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C5
+L Device:C_Small C5
 U 1 1 5ADE9C42
 P 4910 910
 F 0 "C5" H 5002 956 50  0000 L CNN
@@ -647,7 +644,7 @@ $EndComp
 Wire Wire Line
 	4485 1160 4485 1110
 $Comp
-L device:C_Small C3
+L Device:C_Small C3
 U 1 1 5AE42E13
 P 3810 910
 F 0 "C3" H 3902 956 50  0000 L CNN
@@ -667,7 +664,7 @@ Wire Wire Line
 	3810 1110 4010 1110
 Connection ~ 4010 1110
 $Comp
-L device:C_Small C6
+L Device:C_Small C6
 U 1 1 5AE5D7F1
 P 5135 910
 F 0 "C6" H 5227 956 50  0000 L CNN
@@ -879,7 +876,7 @@ $EndComp
 Wire Wire Line
 	750  2075 750  2050
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5B04B04F
 P 750 1525
 F 0 "R1" V 554 1525 50  0000 C CNN
@@ -917,7 +914,7 @@ SWCLK
 Text Label 1500 4450 2    50   ~ 0
 SWDIO
 $Comp
-L Connector:Test_Point TP1
+L Connector:TestPoint TP1
 U 1 1 5AD70CB2
 P 3095 1550
 F 0 "TP1" V 3049 1738 50  0000 L CNN
@@ -928,7 +925,7 @@ F 3 "~" H 3295 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Test_Point TP2
+L Connector:TestPoint TP2
 U 1 1 5AD70DA2
 P 3095 1650
 F 0 "TP2" V 3049 1838 50  0000 L CNN
@@ -943,7 +940,7 @@ Wire Wire Line
 Wire Wire Line
 	3095 1550 2700 1550
 $Comp
-L device:Crystal_Small Y1
+L Device:Crystal_Small Y1
 U 1 1 5AD991EC
 P 1225 1600
 F 0 "Y1" V 1179 1688 50  0000 L CNN
@@ -970,7 +967,7 @@ Wire Wire Line
 Wire Wire Line
 	1225 1725 1225 1700
 $Comp
-L device:C_Small C2
+L Device:C_Small C2
 U 1 1 5ADC2E58
 P 1075 1725
 F 0 "C2" V 846 1725 50  0000 C CNN
@@ -984,7 +981,7 @@ Wire Wire Line
 	1225 1725 1175 1725
 Connection ~ 1225 1725
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5ADD8640
 P 1075 1475
 F 0 "C1" V 846 1475 50  0000 C CNN
@@ -1077,7 +1074,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2905 5650 2980
 $Comp
-L Connector:Test_Point TP3
+L Connector:TestPoint TP3
 U 1 1 5AFB82F6
 P 5550 3780
 F 0 "TP3" V 5475 3905 50  0000 C CNN
@@ -1088,7 +1085,7 @@ F 3 "~" H 5750 3780 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Test_Point TP4
+L Connector:TestPoint TP4
 U 1 1 5AFCFC24
 P 5550 3580
 F 0 "TP4" V 5625 3605 50  0000 L CNN
@@ -1219,7 +1216,7 @@ L power:GND #PWR0104
 U 1 1 5AD40EBA
 P 6050 2980
 F 0 "#PWR0104" H 6050 2730 50  0001 C CNN
-F 1 "GND" H 6050 2780 50  0000 C CNN
+F 1 "GND" H 6075 2785 50  0000 C CNN
 F 2 "" H 6050 2980 50  0001 C CNN
 F 3 "" H 6050 2980 50  0001 C CNN
 	1    6050 2980
@@ -1274,11 +1271,8 @@ F 3 "" H 3400 7125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 7125 3400 7100
-Connection ~ 3400 7100
-Wire Wire Line
-	3400 7100 3175 7100
 $Comp
-L Transistor:TP0610T Q2
+L Transistor_FET:TP0610T Q2
 U 1 1 5B1F41CA
 P 8065 1470
 F 0 "Q2" V 8408 1470 50  0000 C CNN
@@ -1304,7 +1298,7 @@ Wire Wire Line
 Wire Wire Line
 	7760 1370 7760 1350
 $Comp
-L device:R_Small R12
+L Device:R_Small R12
 U 1 1 5B1FDA05
 P 7760 1545
 F 0 "R12" V 7564 1545 50  0000 C CNN
@@ -1328,7 +1322,7 @@ Wire Wire Line
 Text Label 8360 1370 0    50   ~ 0
 VCC_I2C
 $Comp
-L device:D_Schottky D5
+L Device:D_Schottky D5
 U 1 1 5B21A6CB
 P 8080 1155
 F 0 "D5" H 8080 1371 50  0000 C CNN
@@ -1367,7 +1361,7 @@ Wire Wire Line
 	8065 1695 8065 1725
 Connection ~ 8065 1695
 $Comp
-L device:D_Schottky D3
+L Device:D_Schottky D3
 U 1 1 5B238B9D
 P 7730 2095
 F 0 "D3" V 7684 2174 50  0000 L CNN
@@ -1404,7 +1398,7 @@ Connection ~ 7955 2265
 Wire Wire Line
 	7955 2265 7730 2265
 $Comp
-L device:R_Small R10
+L Device:R_Small R10
 U 1 1 5B2587E2
 P 7605 2100
 F 0 "R10" H 7540 1990 50  0000 C CNN
@@ -1425,7 +1419,7 @@ Wire Wire Line
 	7605 2265 7730 2265
 Connection ~ 7730 2265
 $Comp
-L device:R_Small R9
+L Device:R_Small R9
 U 1 1 5B26E830
 P 7455 1925
 F 0 "R9" V 7385 1920 50  0000 C CNN
@@ -1439,7 +1433,7 @@ Wire Wire Line
 	7605 1925 7555 1925
 Connection ~ 7605 1925
 $Comp
-L device:LED_Small D1
+L Device:LED_Small D1
 U 1 1 5B279D13
 P 7315 2100
 F 0 "D1" V 7380 2155 50  0000 R CNN
@@ -1510,7 +1504,7 @@ F 3 "" H 8130 3265 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D4
+L Device:D_Schottky D4
 U 1 1 5B35B61C
 P 7895 3435
 F 0 "D4" V 7849 3514 50  0000 L CNN
@@ -1547,7 +1541,7 @@ Connection ~ 8120 3605
 Wire Wire Line
 	8120 3605 7895 3605
 $Comp
-L device:R_Small R13
+L Device:R_Small R13
 U 1 1 5B35B630
 P 7770 3440
 F 0 "R13" H 7705 3330 50  0000 C CNN
@@ -1568,11 +1562,11 @@ Wire Wire Line
 	7770 3605 7895 3605
 Connection ~ 7895 3605
 $Comp
-L device:R_Small R11
+L Device:R_Small R11
 U 1 1 5B35B63C
 P 7620 3265
 F 0 "R11" V 7550 3260 50  0000 C CNN
-F 1 "200" V 7620 3265 50  0000 C CNN
+F 1 "200" V 7655 3270 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7620 3265 50  0001 C CNN
 F 3 "" H 7620 3265 50  0001 C CNN
 	1    7620 3265
@@ -1582,7 +1576,7 @@ Wire Wire Line
 	7770 3265 7720 3265
 Connection ~ 7770 3265
 $Comp
-L device:LED_Small D2
+L Device:LED_Small D2
 U 1 1 5B35B644
 P 7480 3440
 F 0 "D2" V 7545 3495 50  0000 R CNN
@@ -1627,7 +1621,7 @@ $EndComp
 Wire Wire Line
 	7270 3790 7270 3765
 $Comp
-L device:R_Small R5
+L Device:R_Small R5
 U 1 1 5B35B65E
 P 7270 3105
 F 0 "R5" V 7074 3105 50  0000 C CNN
@@ -1714,7 +1708,7 @@ Wire Wire Line
 Wire Wire Line
 	7105 1925 7105 2025
 $Comp
-L device:R_Small R4
+L Device:R_Small R4
 U 1 1 5B520C30
 P 7105 1825
 F 0 "R4" V 6909 1825 50  0000 C CNN
@@ -1754,7 +1748,7 @@ F 3 "" H 4095 7115 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5B5B6EE3
 P 3715 6775
 F 0 "R2" V 3780 6775 50  0000 C CNN
@@ -1774,7 +1768,7 @@ Connection ~ 3860 6675
 Wire Wire Line
 	3860 6675 3900 6675
 $Comp
-L device:R_Small R7
+L Device:R_Small R7
 U 1 1 5B5DF7A8
 P 4095 7000
 F 0 "R7" V 4160 7000 50  0000 C CNN
@@ -1791,7 +1785,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6675 4775 6675
 $Comp
-L device:POT R3
+L Device:R_POT R3
 U 1 1 5B64257B
 P 3900 6890
 F 0 "R3" H 3830 6936 50  0000 R CNN
@@ -1809,7 +1803,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 3850 970  3850
 $Comp
-L device:R_Small R14
+L Device:R_Small R14
 U 1 1 5B28597D
 P 860 3510
 F 0 "R14" H 780 3510 50  0000 C CNN
@@ -1833,7 +1827,7 @@ $EndComp
 Wire Wire Line
 	860  3385 860  3410
 $Comp
-L device:R_Small R15
+L Device:R_Small R15
 U 1 1 5B293992
 P 970 3510
 F 0 "R15" H 1050 3515 50  0000 C CNN

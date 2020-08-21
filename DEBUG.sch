@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AudiA6Main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -26,7 +25,7 @@ F 3 "" H 3750 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x10_Odd_Even P1
+L Connector_Generic:Conn_02x10_Odd_Even P1
 U 1 1 5889076F
 P 3950 3500
 F 0 "P1" H 3950 4050 50  0000 C CNN
@@ -39,7 +38,7 @@ $EndComp
 Wire Wire Line
 	3750 3100 3750 2750
 $Comp
-L device:R_Small R19
+L Device:R_Small R19
 U 1 1 58890834
 P 3150 2950
 F 0 "R19" H 3180 2970 50  0000 L CNN
@@ -50,7 +49,7 @@ F 3 "" H 3150 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R20
+L Device:R_Small R20
 U 1 1 588908E2
 P 3350 2950
 F 0 "R20" H 3380 2970 50  0000 L CNN
@@ -61,7 +60,7 @@ F 3 "" H 3350 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R21
+L Device:R_Small R21
 U 1 1 588908FF
 P 3550 2950
 F 0 "R21" H 3580 2970 50  0000 L CNN
@@ -147,7 +146,7 @@ Wire Wire Line
 	3350 3500 3350 3050
 Connection ~ 3350 3500
 $Comp
-L device:C_Small C21
+L Device:C_Small C21
 U 1 1 58890FEC
 P 3250 3950
 F 0 "C21" H 3260 4020 50  0000 L CNN

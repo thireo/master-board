@@ -61,7 +61,7 @@ Wire Wire Line
 	4725 3225 4775 3225
 Connection ~ 4775 3225
 $Comp
-L device:R_Small R?
+L Device:R_Small R?
 U 1 1 5ADAC53C
 P 5750 2650
 F 0 "R?" H 5809 2696 50  0000 L CNN
@@ -125,7 +125,7 @@ Connection ~ 7025 2100
 Wire Wire Line
 	7025 2100 7025 2175
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5ADAEAB8
 P 6050 1400
 F 0 "C?" H 6142 1446 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 6050 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L Device:C_Small C?
 U 1 1 5ADAEB64
 P 5675 1400
 F 0 "C?" H 5767 1446 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 5675 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1_Small C?
+L Device:CP1_Small C?
 U 1 1 5ADAECA8
 P 6450 1400
 F 0 "C?" H 6541 1446 50  0000 L CNN
